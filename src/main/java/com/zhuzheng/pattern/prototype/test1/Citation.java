@@ -1,4 +1,4 @@
-package com.zhuzheng.pattern.prototype.test;
+package com.zhuzheng.pattern.prototype.test1;
 
 import java.io.Serializable;
 
@@ -11,15 +11,11 @@ import java.io.Serializable;
  * @Create: 2024/12/9 - 16:29
  * Version: v1.0
  */
-class Citation implements Cloneable, Serializable {
+class Citation implements Cloneable{
     private Student student;
 
     public void setStudent(Student student) {
         this.student = student;
-    }
-
-    public Student getStudent() {
-        return student;
     }
 
     // 显示姓名

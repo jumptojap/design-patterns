@@ -1,8 +1,4 @@
-package com.zhuzheng.pattern.prototype.test;
-
-import com.zhuzheng.principles.demo4.before.SafetyDoor;
-
-import java.io.Serializable;
+package com.zhuzheng.pattern.prototype.test1;
 
 /**
  * ClassName: Student
@@ -13,7 +9,7 @@ import java.io.Serializable;
  * @Create: 2024/12/9 - 18:47
  * Version: v1.0
  */
-public class Student implements Serializable{
+public class Student {
     private String name;
 
     @Override
